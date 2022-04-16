@@ -58,7 +58,7 @@ export const Addcity = () => {
         />
         <br />
         <br />
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleSubmit} disabled={!cityname || !population || !countryname}>Submit</button>
       </div>
     </div>
   );

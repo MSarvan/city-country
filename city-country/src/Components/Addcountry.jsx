@@ -31,7 +31,7 @@ export const Addcountry = () => {
             setCountryname(e.target.value);
           }}
         />
-        <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleSubmit} disabled={!countryname}>Submit</button>
       </div>
     </div>
   );

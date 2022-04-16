@@ -1,22 +1,10 @@
 {
   "details": [
     {
-      "id": "1",
+      "city": "Mumbai",
+      "population": "4598752",
       "country": "India",
-      "city": "Delhi",
-      "population": "19,000,000"
-    },
-    {
-      "id": "2",
-      "country": "USA",
-      "city": "Chicago",
-      "population": "2,920,000"
-    },
-    {
-      "city": "salem",
-      "population": "100000",
-      "country": "India",
-      "id": "0X744RL"
+      "id": 1
     }
   ]
 }
