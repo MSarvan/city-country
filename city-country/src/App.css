@@ -50,3 +50,13 @@ button
 {
   font-size: 13px;
 }
+
+th
+{
+  width: 70px;
+}
+
+td
+{
+  width: 70px;
+}
