@@ -21,7 +21,7 @@ export const Addcity = () => {
 
   return (
     <div>
-      <h1>Add City</h1>
+      <h3>Add City</h3>
       <div className="btns">
         <Link to="/">
           <button>Home</button>

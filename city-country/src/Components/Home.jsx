@@ -16,7 +16,7 @@ export const Home = () => {
 
   return (
     <div>
-      <h1>Home</h1>
+      <h3>Home</h3>
       <div className="btns">
         <Link to="/">
           <button>Home</button>

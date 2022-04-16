@@ -12,7 +12,7 @@ export const Addcountry = () => {
 
   return (
     <div>
-      <h1>Add Country</h1>
+      <h3>Add Country</h3>
       <div className="btns">
         <Link to="/">
           <button>Home</button>
