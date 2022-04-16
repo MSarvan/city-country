@@ -6,13 +6,13 @@ export const Home = () => {
   const [details, setDetails] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:6789/city`)
+    fetch(`http://localhost:6789/details`)
       .then((res) => res.json())
       .then((res) => setDetails(res))
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(details);
+  console.log("details:", details);
 
   return (
     <div>

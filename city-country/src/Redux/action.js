@@ -17,7 +17,7 @@ export const CityFailure = (payload) => ({
 
 export const UpdatedData = (citydetails) => (dispatch) => {
     dispatch(CityLoading);
-    fetch(`http://localhost:6789/city`, {
+    fetch(`http://localhost:6789/details`, {
         method: "POST",
         body: JSON.stringify(citydetails),
         headers: {
