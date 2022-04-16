@@ -48,8 +48,8 @@ export const Home = () => {
                     <td style={{ border: "1px solid #cecece" }}>{e.country}</td>
                     <td style={{ border: "1px solid #cecece" }}>{e.city}</td>
                     <td style={{ border: "1px solid #cecece" }}>{e.population}</td>
-                    <td><button>Edit</button></td>
-                    <td><button>Delete</button></td>
+                    <td style={{ border: "1px solid #cecece" }}><button>Edit</button></td>
+                    <td style={{ border: "1px solid #cecece" }}><button>Delete</button></td>
                 </tr>
             ))}
         </tbody>
